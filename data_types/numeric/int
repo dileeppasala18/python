@@ -1,0 +1,35 @@
+#Program to accept integer values from user:
+a=input("Enter Num1:")
+b=input("Enter Num2:")
+print("result is:",a+b)
+
+#we have to convert from string to integer
+a=input("Enter Num1:")
+print(type(a))
+x=int(a)
+b=input("Enter Num2:")
+print(type(b))
+y=int(b)
+print("result is:",x+y)
+
+
+#example for int data type
+a=10
+print(a)
+print(type(a))
+
+
+a=10.9
+print(a)
+print(type(a))
+
+
+#to convert from float to int:
+
+a=10.8
+print(a)
+print(type(a))
+
+b=int(a)
+print(b)
+print(type(b))

@@ -1,0 +1,13 @@
+#list:
+
+• List is ordered collection of elements.
+• We can create list by using [].
+• List will allow duplicate elements.
+• List will allow different data type elements
+• List is mutable, once we create a list that can be modified.
+
+Ex:
+
+l= [10,10,"durga",23.4,20,'A']
+print(l)
+print(type(l))

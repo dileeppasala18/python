@@ -1,0 +1,22 @@
+#pascal 
+
+
+idef fact(x):
+ i   f=1
+    k=1
+    while k<=x:
+        f=f*k
+        k+=1
+    return f
+
+
+for i in range(0,6):
+    for j in range(0,i+1):
+        nm=fact(i)
+        d1=fact(j)
+        d2=fact(i-j)
+        t=nm//(d1*d2)
+        print(t,end=" ")
+    print("\n")
+
+ 

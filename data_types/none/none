@@ -1,0 +1,7 @@
+• When we have a variable which is not assigned any value is called None.
+• Normally in any language the keyword can be use null, but in python we
+use None.
+ex :
+   a=None
+   print(a)
+   print(type(a))

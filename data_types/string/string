@@ -1,0 +1,29 @@
+# string:
+
+• str represents String data type.
+• A string is a sequence of characters enclosed within single quotes or double
+quotes.
+• String can be create by using '' or "" or ''' ''' or """ """
+• Triple quotes can be used for multiline string.
+• String is immutable, that can’t be modifying directly.
+ 
+ex:
+s="durgasoft"
+print(s)
+print(type(s))
+
+
+s='durga\'s'
+print(s)
+
+
+s='''durgasoft
+hyderabad
+maitrivanam'''
+print(s)
+
+
+s="""durgasoft
+hyderabad
+maitrivanam"""
+print(s
