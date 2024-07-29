@@ -1,0 +1,23 @@
+#single inheritance for bike
+
+class vehical:
+    def __init__(self,name,model):
+        self.vehical_name=name
+        self.vehical_model=model
+    def display(self):
+        print("the vehical name is ",self.vehical_name)
+        print("the vehical model is ",self.vehical_model)
+
+class bike(vehical):
+    def __init__(self,name,model,price,speed):
+        super().__init__(name,model)
+        self.vehical_price=price
+        self.vehical_speed=speed
+    def display(self):
+        super().display()
+        print("the vehical price is ",self.vehical_price)
+        print("the vehical speed is ",self.vehical_speed)
+
+b1=bike("hayabusa","sports",2000000,"350 km/h")
+b1.display()
+
