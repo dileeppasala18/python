@@ -1,0 +1,36 @@
+#mutilevel inheritance for phone class:
+
+class phone:
+    def __init__(self,name,model):
+        self.p_name=name
+        self.p_model=model
+
+    def display(self):
+        print("enter the name of phone is ",self.p_name)
+        print("enter the model of the phone is ",self.p_model)
+
+class phone2(phone):
+    def __init__(self,name,model,price):
+        super().__init__(name,model)
+        self.p_price=price
+
+    def display(self):
+        super().display()
+        print("enter the price of the phone is ",self.p_price)
+
+class phone3(phone2):
+    def __init__(self,name,model,price,colour):
+        super().__init__(name,model,price)
+        self.p_colour=colour
+    def display(self):
+        super().display()
+        print("enter the color of the phone",self.p_colour)
+
+
+
+p2=phone2("vivo","v23 pro",50000)
+p2.display()
+            
+p3=phone3("iphone","16 pro max",200000,"pink")
+p3.display()
+
