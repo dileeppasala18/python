@@ -1,0 +1,39 @@
+#heirarchcal inheritance for vrlichal(bike and car):
+
+class vehical:
+    def __init__(self,name,model):
+        self.vehical_name=name
+        self.vehical_model=model
+    def display(self):
+        print("the bike name is ",self.vehical_name)
+        print("the bike model is ",self.vehical_model)
+
+class bike(vehical):
+    def __init__(self,name,model,price,speed):
+        super().__init__(name,model)
+        self.vehical_price=price
+        self.vehical_speed=speed
+    def display(self):
+        super().display()
+        print("the car price is ",self.vehical_price)
+        print("the car speed is ",self.vehical_speed)
+
+class car(vehical):
+    def __init__(self,name,model,price,speed):
+        super().__init__(name,model)
+        self.c_price=price
+        self.c_speed=speed
+        
+    def display(self):
+        super().display()
+        print("the car price is ",self.c_price)
+        print("the car speed is ",self.c_speed)
+              
+
+b1=bike("hayabusa","sports",2000000,"350 km/h")
+b1.display()
+
+
+c1=car("benz","amg",40000000,"400 km/h")
+c1.display()
+
