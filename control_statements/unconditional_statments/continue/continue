@@ -1,0 +1,6 @@
+#continue
+for var in "dileep":
+    if var == "e":
+        continue
+    print(var)
+
