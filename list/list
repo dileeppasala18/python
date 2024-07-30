@@ -1,0 +1,50 @@
+
+#insert
+"""
+my_list = [1, 2, 3]
+my_list.insert(1, 5)
+print(my_list)
+"""
+#remove
+"""my_list = [1, 2, 3, 2]
+my_list.remove(2)
+print(my_list)
+"""
+#pop
+"""
+my_list = [1, 2, 3]
+popped_item = my_list.pop()
+print(popped_item)
+print(my_list)
+"""
+#index
+"""
+my_list = [1, 2, 3, 2]
+index = my_list.index(2)
+print(index)
+"""
+#count
+"""t
+my_list = [1, 2, 3, 2]
+count = my_list.count(2)
+print(count)
+"""
+#sort
+"""
+my_list = [3, 1, 2]
+my_list.sort()
+print(my_list)
+"""
+#reverse
+"""
+my_list = [1, 2, 3]
+my_list.reverse()
+print(my_list)
+"""
+#clear
+"""
+my_list = [1, 2, 3]
+my_list.clear()
+print(my_list)
+"""
+
