@@ -1,0 +1,5 @@
+#repetition
+
+t1=(5,6)
+t1=t1*3
+print(t1)

@@ -1,0 +1,7 @@
+#concatenation
+
+t1=(5,6)
+t2=(9,8)
+z=t1+t2
+print(z)
+

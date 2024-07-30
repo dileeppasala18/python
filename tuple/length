@@ -1,0 +1,5 @@
+#length
+
+tuple=(8,99,78,65,54,67)
+print(len(tuple))
+

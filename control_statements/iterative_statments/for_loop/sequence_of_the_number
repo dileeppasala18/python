@@ -1,0 +1,5 @@
+#to print the numbers in the sequence
+l=[10,20,30,40,50,60]
+for i in l:
+ print(i)----->it will print the numbers one by one in different lines
+# print(i,end=' ')---------->it will print the numbers in the same line

@@ -1,0 +1,23 @@
+#to print the elements in the list with differnt methods
+
+n=[1,22,33,44,55,66,77,88]
+
+i=0
+while i<len(n):
+    print(n[i])
+    i+=1
+
+
+   
+for i in range(len(n)):
+    print(n[i])
+
+
+for each_ele in n:
+    print(each_ele)
+
+for i in n:
+    print(i)
+
+ 
+
