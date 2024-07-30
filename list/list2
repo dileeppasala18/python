@@ -1,0 +1,83 @@
+list:
+
+list = [1, 2, 3, 4, 5]
+
+Operations on Lists:
+    
+
+1. Accessing Elements:
+
+By Index: Access elements using zero-based indexing.
+
+first_item = list[0]  # 1
+last_item = list[-1]  # 5
+
+2. Modifying Elements:
+    
+By Index: Update elements directly.
+
+list[1] = 10 # [1, 10, 3, 4, 5]
+
+3. Adding Elements:
+    
+Append: Add an element to the end of the list.
+
+list.append(6)=[1, 10, 3, 4, 5, 6]
+
+4. Insert:
+
+Insert an element at a specific position.
+
+list.insert(2, 15)= [1, 10, 15, 3, 4, 5, 6]
+
+5.Extend:
+
+    Add elements from another iterable.
+
+    my_list.extend([7, 8])  = [1, 10, 15, 3, 4, 5, 6, 7, 8]
+6. Removing Elements:
+    
+    Remove: Remove the first occurrence of a value.
+
+    list.remove(15)  = [1, 10, 3, 4, 5, 6, 7, 8]
+
+7.Pop:
+
+    Remove and return an element at a given position (or the last element if no index is provided).
+
+     popped_item = list.pop()  # 8
+
+8.Delete:
+    Remove an element by index.
+
+    del list[0]  # [10, 3, 4, 5, 6, 7]
+9. Sorting and Reversing
+
+    Sort: Sort the list in place.
+
+    list.sort()  # [3, 4, 5, 6, 7, 10]
+    Sorted: Return a new sorted list.
+
+    sorted_list = sorted(list)  # [3, 4, 5, 6, 7, 10]
+    Reverse: Reverse the list in place.
+
+    list.reverse()  # [10, 7, 6, 5, 4, 3]
+
+10. List Methods
+
+   count(): Count occurrences of a value.
+   count_of_five = list.count(5)
+
+11. List Length
+
+    len(): Get the number of items in the list.
+
+    length = len(list)  # Number of elements in my_list
+
+12. Slicing
+
+  Basic Slicing: Extract parts of a list using list[start:stop:step].
+
+  sublist = my_list[2:5]  # [5, 6, 7]
+
+
