@@ -1,0 +1,49 @@
+"""
+#name_error_print_a
+try:
+    a=10
+    print(A)
+except Exception as e:
+   print(e)
+finally:
+    print("a value is",a)
+    print("end")
+
+
+#division_using_try_exception
+try:
+    a=10
+    b=0
+    c=a/b
+    print(c)
+except Exception as e:
+   print(e)
+finally:
+    print("a value is",a)
+    print("b value is",b)
+
+
+#generic_exception
+
+try: 
+    a=10
+    b="sai"
+    c=a+b
+    print(c)
+except Exception as d:
+    print(d)
+finally:
+    print("a value is",a)
+    print("b value is",b)
+
+#sample.txt
+
+try:
+    f=open("sample.txt","r")
+    txt=f.read()
+    print(txt)
+except Exception as e:
+    print(e)
+finally:
+    print("bye")
+

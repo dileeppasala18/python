@@ -1,0 +1,33 @@
+def add(*arg):
+    print(type(arg))
+    print("Arguements are:",arg)
+    print("Number of Arguments:",len(arg))
+    s=0
+    for i in arg:
+        s=s+i
+    return s
+
+def product(*arg):
+    print(type(arg))
+    print("Arguements are:",arg)
+    print("Number of Arguments:",len(arg))
+    s=1
+    for i in arg:
+        s=s*i
+    return s
+
+def even_odd_check(number):
+    if number%2==0:
+        print(number," is even")
+    else:
+        print(number," Is Odd")
+
+def is_prime(number):
+    flag=True
+    for i in range(2,number):
+        if number%i==0:
+            return False
+    return flag
+
+    
+

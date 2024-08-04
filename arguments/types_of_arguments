@@ -1,0 +1,28 @@
+#positional_arguments
+def greet(name, age):
+    print(f"Hello {name} You are {age} years old.")
+greet("bhanu",30)
+
+#keyword_arguments
+
+def greet(name, age):
+    print(f"Hello {name} You are {age} years old.")
+greet(name="bhanu",age=30)
+
+#default_arguments
+def greet(name, age=27):
+    print(f"Hello {name} You are {age} years old.")
+greet("raja")
+
+#Variable-Length Positional Arguments (*args)
+def print_numbers(*args):
+    for number in args:
+        print(number)
+print_numbers(1,2,3,4,5)
+
+#Variable-Length keyword_Arguments (**args)
+def print_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+print_info(name="sunny", age=30, city="rajampet")
+

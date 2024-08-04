@@ -1,0 +1,6 @@
+def sum(a,b):
+    x=a+b
+    print("the sun of", a ,"and", b ,"is : ", x )
+    
+sum(12,34)
+

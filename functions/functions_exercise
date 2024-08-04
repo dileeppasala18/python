@@ -1,0 +1,99 @@
+"""
+#area of rectangle in 4 types
+#with arguments and return type
+def area(l,b):
+    a=l*b
+    return(a)
+k=area(10,20)
+print(k)
+
+#with arguments and no return type
+def area(l,b):
+    a=l*b
+    print(a)    
+area(10,20)
+
+#with no arguments and return type
+def area():
+    l=int(input("enter the number"))
+    b=int(input("enter the number"))
+    a=l*b
+    return(a)
+k=area()
+print(k)
+
+#with no arguments and no return type
+def area():
+    l=int(input("enter the number"))
+    b=int(input("enter the number"))
+    a=l*b
+    print(a)
+area()
+
+#addition of two numbers
+#with arguments and return type
+def sum(x,y):
+    z=x+y
+    return(z)
+k=sum(10,20)
+print(k)
+
+#with arguments and no return type
+def sum(x,y):
+    z=x+y
+    print(z)    
+sum(10,20)
+
+#with no arguments and return type
+def sum():
+    x=int(input("enter the number"))
+    y=int(input("enter the number"))
+    z=x+y
+    return(z)
+k=sum()
+print(k)
+
+#with no arguments and no return type
+def sum():
+    x=int(input("enter the number"))
+    y=int(input("enter the number"))
+    z=x+y
+    print(z)
+sum()
+
+#even_or_odd
+def even_odd(num):
+    if num%2==0:
+        print(num," is even")
+    else:
+        print(num," is odd")
+num=int(input("enter the number"))
+even_odd(num)
+
+#check_prime
+def prime_check(x):
+    c=0
+    for i in range(1,x+1):
+        z=x%i
+        if z==0:
+            c+=1
+    if c==2:
+        print("prime")
+    else:
+        print("not prime")
+x=int(input("enter the number")       
+prime_check(x)
+
+#factorial_
+def fact(x):
+    result=1
+    while x>=1:
+        result=result*x
+        x=x-1
+    return result
+x=int(input("enter the number"))
+result=fact(x)
+print(x,"factorial is",fact(x))
+"""
+
+
